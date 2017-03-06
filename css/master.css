@@ -1,0 +1,25 @@
+.container{
+	width: 100%;
+	outline: 1px solid black;
+}
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.logo{
+	display: inline-block;
+	font-size: 0px;
+}
+.logo p{
+	display: inline-block;
+	font-size: 11px;
+}
+.logo div{
+	display: inline-block;
+	background-color: green;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+}

@@ -1,25 +1,122 @@
+body{
+	font-family: Poppins;
+	font-size: 20px;
+}
 .container{
 	width: 100%;
-	outline: 1px solid black;
+
 }
 header{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+  align-content: center;
+  font-weight: bold;
+  font-family: Poppins;
+	font-size: 13px;
+
 }
 
 .logo{
-	display: inline-block;
-	font-size: 0px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	flex-wrap: wrap;
+	font-size: 13px;
+
+  text-decoration: none;
+	color: black;
+	padding-top: 13px;
+	padding-bottom: 6px;
+
 }
 .logo p{
 	display: inline-block;
-	font-size: 11px;
+  text-transform: uppercase;
+  margin-right: 6px;
+
+}
+.logo p:first-child{
+	color:#7dc93f;
 }
 .logo div{
 	display: inline-block;
-	background-color: green;
-	width: 6px;
-	height: 6px;
+	background-color: #7dc93f;
+	width: 8px;
+	height: 8px;
+
+	margin-left:7px;
 	border-radius: 50%;
+
+}
+.navigation{
+  display: flex;
+	flex-wrap: wrap;
+  flex-direction: row;
+	justify-content: space-between;
+  align-content: stretch;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.navigation a{
+  display: inline-block;
+
+  align-self: center;
+  margin-right: 75px;
+  text-transform: uppercase;
+  text-decoration: none;
+	color: black;
+}
+.navigation a:nth-child(2){
+	color:#7dc93f;
+}
+main{
+	outline: 1px solid black;
+}
+.main-header{
+	color:white;
+	background-image: url("../img/HeaderImage.png");
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 96px;
+	padding-bottom: 74px;
+}
+.main-header h1{
+	font-size: 35px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+.main-header span{
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.createdby{
+	text-decoration: none;
+	color: white;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 14px;
+}
+.createdby span{
+	color: #7dc93f;
+	font-size: 11px;
+}
+.explorebutton{
+	display: inline-block;
+	background-color: #7dc93f;
+	width: 152px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	font-size: 15px;
+	text-transform: uppercase;
+	border-radius: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	margin-top: 54px;
 }

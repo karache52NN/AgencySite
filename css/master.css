@@ -120,3 +120,138 @@ main{
 	text-decoration: none;
 	margin-top: 54px;
 }
+.features{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: stretch;
+	flex-wrap: wrap;
+}
+.features>div{
+
+	max-width: 191px;
+}
+.column{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.column h2{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.column p{
+	display: inline-block;
+	max-width: 100px;
+	font-size: 11px;
+	text-align: center;
+}
+.ball{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background-color: #f2f2f2;
+	text-align: center;
+}
+.development .ball{
+	background-color: #7dc93f;
+}
+.ball img{
+	display: inline-block;
+	margin-top: 28px;
+}
+.animation .ball img{
+	margin-top: 23px;
+}
+.Developers{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.Developers h1{
+	font-size: 35px;
+	text-transform: uppercase;
+}
+.greeny{
+	color: #7dc93f;
+	font-style: normal;
+}
+.Developers span{
+	font-size: 11px;
+	color: gray;
+	letter-spacing: 3.5px;
+}
+.decoline{
+	width: 68px;
+	height: 2px;
+	background-color: #7dc93f;
+	margin-top: 25px;
+}
+.Developers p{
+	display: inline-block;
+	max-width: 483px;
+	font-size: 14px;
+	text-align: center;
+}
+.faces{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding-bottom: 78px;
+}
+.faces .portrait{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.image-portrait{
+	background-color: lightgray;
+	width: 174px;
+	height: 134px;
+}
+.chain{
+	opacity: 0;
+	display: inline-block;
+	width: 36px;
+	height: 34px;
+	background-color: lightgray;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.chain:hover{
+	opacity: 1;
+	visibility: visible;
+	display: inline-block;
+	width: 36px;
+	height: 34px;
+	background-color: #7dc93f;
+	background-image: url("../img/chain.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.portrait span{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 12px;
+}
+.portrait span:last-child{
+	text-transform: capitalize;
+	color: #7dc93f;
+	margin-top: 5px;
+}
+.portrait .image-portrait{
+	background-image: url("../img/Jack.png");
+}
+.portrait:nth-child(2) .image-portrait{
+	background-image: url("../img/Alex.png");
+}
+.portrait:nth-child(3) .image-portrait{
+	background-image: url("../img/Addey.png");
+}

@@ -255,3 +255,32 @@ main{
 .portrait:nth-child(3) .image-portrait{
 	background-image: url("../img/Addey.png");
 }
+
+.videopause{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-image: url("../img/Mountains.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 35px;
+	padding-top: 86px;
+	padding-bottom: 50px;
+	text-transform: uppercase;
+	color: white;
+}
+.videopause span{
+	letter-spacing: 6px;
+}
+.play{
+	display: inline-block;
+	background-color: #7dc93f;
+	border-radius: 50%;
+	width: 46px;
+	height: 46px;
+	background-image: url("../img/Arrow.png");
+	background-position: 55% 50%;
+	background-repeat: no-repeat;
+	margin-top: 42px;
+}

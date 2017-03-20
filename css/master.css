@@ -284,3 +284,92 @@ main{
 	background-repeat: no-repeat;
 	margin-top: 42px;
 }
+.ourskills{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 65px;
+	padding-bottom: 65px;
+}
+.ourskills-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 295px;
+}
+.ourskills-text h2{
+	font-size: 38px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 3px;
+	margin: 0px;
+}
+.ourskills-text span{
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: bold;
+	color: lightgray;
+}
+.ourskills-text p{
+	font-size: 14px;
+	color: gray;
+}
+.explorebutton .slimbutton{
+	margin: 0px;
+	margin-top: 34px;
+	font-weight: bold;
+	letter-spacing: 1.2px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.ourskills-diagramm{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 295px;
+}
+.diagramm-unit{
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.unit-text{
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	width:290px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.unit-text p:first-child{
+	margin: 0px;
+	display: inline;
+}
+.unit-text p:last-child{
+	margin: 0px;
+	display: inline-block;
+}
+.unit-scale{
+	order: -1;
+	border-bottom: 1px solid lightgray;
+	padding: 2px;
+	width: 285px;
+}
+.scale-value{
+	height: 4px;
+	background-color: #7dc93f;
+	width: 95%;
+}
+.diagramm-unit:nth-child(3) .scale-value{
+	width: 80%;
+}
+.diagramm-unit:nth-child(4) .scale-value{
+	width: 50%;
+}
+.diagramm-unit:nth-child(4) .unit-text p:first-child{
+	color: #7dc93f;
+}

@@ -373,3 +373,216 @@ main{
 .diagramm-unit:nth-child(4) .unit-text p:first-child{
 	color: #7dc93f;
 }
+.idea-desing{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap:wrap;
+	padding-bottom: 77px;
+}
+.idea{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 280px;
+	background-color: #f9f9f9;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 24px;
+	padding-right: 24px;
+	margin: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	box-shadow: 2px 2px 1px #ececec;
+}
+.idea p{
+	font-size: 10px;
+	line-height: 1.5;
+	text-decoration: none;
+	color: gray;
+	text-transform: none;
+	text-align: center;
+}
+.idea .slimbutton{
+	font-weight: normal !important;
+	letter-spacing: normal;
+}
+.counters{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-image: url("../img/Mountains.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.counter-element{
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+}
+.counter-element .element-digit{
+	font-size: 48px;
+	font-weight: bold;
+	color: #7dc93f;
+	margin: 0px;
+}
+.counter-element .greenstripe{
+	width: 40px;
+	height: 4px;
+	background-color: #7dc93f;
+	margin: 0px;
+}
+.counter-element .element-name{
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.portfolio{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 78px;
+	padding-bottom: 80px;
+}
+.portfolio span:first-child{
+	font-size: 30px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	color: black;
+}
+.portfolio span{
+	font-size: 16px;
+	font-weight: bolder;
+	text-transform: capitalize;
+	letter-spacing: 2.5px;
+	color: lightgray;
+}
+.tile{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 27px;
+}
+.tile-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.tile-coil{
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.tile-coil-img{
+	width: 281px;
+	height: 228px;
+}
+.price-plane{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.price-plane span:first-child{
+	font-size: 30px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	color: black;
+}
+.price-plane span{
+	font-size: 16px;
+	font-weight: bolder;
+	text-transform: capitalize;
+	letter-spacing: 2.5px;
+	color: lightgray;
+}
+.price-cards{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+.card{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: nowrap;
+	background-color: #f9f9f9;
+	min-width: 230px;
+	padding-bottom: 24px;
+	margin: 5px;
+}
+.hemisphere{
+	width: 118px;
+	height: 57px;
+	background-color: white;
+	background-image: url("../img/Ellipse.png");
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+
+}
+.hemisphere p{
+	position: relative;
+	top: -30px;
+	left: 25px;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+.price-cards .card .card-header{
+	color: black;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 27px;
+	margin-bottom: 11px;
+}
+.price-cards .card .graystripe{
+	width: 100%;
+	height: 2px;
+	background-color: lightgray;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+.price-cards .card .explorebutton{
+	margin-top: 30px;
+	letter-spacing: 3px;
+	font-weight: bold;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.card:nth-child(2) .hemisphere{
+	background-image: url("../img/Ellipse2.png");
+}
+.card:nth-child(2){
+	background-color: #7dc93f;
+}
+.card:nth-child(2) .hemisphere p{
+		color: #7dc93f;
+}
+.card:nth-child(2) span{
+	color: white;
+}
+.card:nth-child(2) .card-header{
+	color: white;
+}
+.card:nth-child(2) .explorebutton{
+	background-color: white;
+	color: #7dc93f;
+}
